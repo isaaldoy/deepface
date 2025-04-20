@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+  <h1>Welcome, {{ username }}!</h1>
+  <p>You are successfully logged in via face recognition.</p>
+  <nav>
+    <a href="{{ url_for('logout') }}">Logout</a>
+  </nav>
+{% endblock %}

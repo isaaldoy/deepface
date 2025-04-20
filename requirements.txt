@@ -1,0 +1,6 @@
+# requirements.txt
+deepface
+Flask
+# tf-keras (if you needed it before)
+# opencv-python-headless (or opencv-python)
+# Other dependencies deepface pulls in (like tensorflow)
